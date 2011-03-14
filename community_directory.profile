@@ -29,9 +29,6 @@ function community_directory_profile_modules() {
     'ctools',
     'token',
 
-    'custom_breadcrumbs',
-    #'custom_breadcrumbs_taxonomy',
-
     'date_api',
     'date',
     'date_timezone',

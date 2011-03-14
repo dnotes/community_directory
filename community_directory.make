@@ -1,7 +1,5 @@
+api = 2
 core = 6.x
-projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
 
 projects[] = cck
 projects[] = link
@@ -9,8 +7,6 @@ projects[] = filefield
 projects[] = imagefield
 
 projects[] = ctools
-
-projects[custom_breadcrumbs] = 2.x-dev
 
 projects[] = date
 
