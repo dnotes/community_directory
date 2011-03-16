@@ -61,9 +61,11 @@ function community_directory_profile_modules() {
 
     'random_splash',
     #'bcd_localities',
-    #'bcd_schools',
     #'bcd_facilities',
-    #'bcd_websites',
+    #'bcd_schools',
+    #'bcd_temple',
+    #'link_display_options',
+    #'google_calendar',
 
   );
 }

@@ -41,9 +41,11 @@ projects[views] = 2.12
 
 projects[random_splash][location] = "http://features.dnotes.net/fserver"
 ;projects[bcd_localities][location] = "http://features.dnotes.net/fserver"
-;projects[bcd_schools][location] = "http://features.dnotes.net/fserver"
 ;projects[bcd_facilities][location] = "http://features.dnotes.net/fserver"
-;projects[bcd_websites][location] = "http://features.dnotes.net/fserver"
+;projects[bcd_schools][location] = "http://features.dnotes.net/fserver"
+;projects[bcd_temple][location] = "http://features.dnotes.net/fserver"
+;projects[link_display_options][location] = "http://features.dnotes.net/fserver"
+;projects[google_calendar][location] = "http://features.dnotes.net/fserver"
 
 ; Libraries
 libraries[Clusterer2.js][download][type] = "raw"
