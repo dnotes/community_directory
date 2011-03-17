@@ -41,8 +41,8 @@ projects[views] = 2.12
 
 projects[random_splash][location] = "http://features.dnotes.net/fserver"
 projects[bcd_localities][download][type] = "git"
-projects[bcd_localities][download][url] = "http://github.com/dnotes/bcd_localities"
-projects[bcd_localities][download][revision] = "HEAD"
+projects[bcd_localities][download][url] = "git://github.com/dnotes/bcd_localities"
+projects[bcd_localities][download][branch] = "master"
 projects[bcd_centers][download][type] = "git"
 projects[bcd_centers][download][url] = "http://github.com/dnotes/bcd_centers"
 projects[bcd_states][download][type] = "git"
