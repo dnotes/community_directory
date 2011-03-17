@@ -40,17 +40,22 @@ projects[] = vertical_tabs
 projects[views] = 2.12
 
 projects[random_splash][location] = "http://features.dnotes.net/fserver"
+projects[bcd_localities][type] = "module"
 projects[bcd_localities][download][type] = "git"
 projects[bcd_localities][download][url] = "git://github.com/dnotes/bcd_localities"
-projects[bcd_localities][download][branch] = "master"
+projects[bcd_centers][type] = "module"
 projects[bcd_centers][download][type] = "git"
 projects[bcd_centers][download][url] = "http://github.com/dnotes/bcd_centers"
+projects[bcd_states][type] = "module"
 projects[bcd_states][download][type] = "git"
 projects[bcd_states][download][url] = "http://github.com/dnotes/bcd_states"
+projects[bcd_facilities][type] = "module"
 projects[bcd_facilities][download][type] = "git"
 projects[bcd_facilities][download][url] = "http://github.com/dnotes/bcd_facilities"
+projects[bcd_seasonal][type] = "module"
 projects[bcd_seasonal][download][type] = "git"
 projects[bcd_seasonal][download][url] = "http://github.com/dnotes/bcd_seasonal"
+projects[bcd_temple][type] = "module"
 projects[bcd_temple][download][type] = "git"
 projects[bcd_temple][download][url] = "http://github.com/dnotes/bcd_temple"
 
