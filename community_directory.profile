@@ -44,7 +44,7 @@ function community_directory_profile_modules() {
 
     'gmap',
     'gmap_location',
-    'gmap_taxonomy_markers',
+    'gmap_taxonomy',
     'geoip',
 
     'advanced_help',
@@ -60,8 +60,9 @@ function community_directory_profile_modules() {
     'views',
 
     'random_splash',
-    #'bcd_localities',
-    #'bcd_facilities',
+    'bcd_localities',
+    'bcd_states',
+    'bcd_facilities',
     #'bcd_schools',
     #'bcd_temple',
     #'link_display_options',
