@@ -41,17 +41,17 @@ projects[views] = 2.12
 
 projects[random_splash][location] = "http://features.dnotes.net/fserver"
 projects[bcd_localities][download][type] = "git"
-projects[bcd_localities][download][url] = "git://dnotes.net/bcd_localities.git"
+projects[bcd_localities][download][url] = "git://dnotes.net/bcd_localities"
 projects[bcd_centers][download][type] = "git"
-projects[bcd_centers][download][url] = "git://dnotes.net/bcd_centers.git"
+projects[bcd_centers][download][url] = "git://dnotes.net/bcd_centers"
 projects[bcd_states][download][type] = "git"
-projects[bcd_states][download][url] = "git://dnotes.net/bcd_states.git"
+projects[bcd_states][download][url] = "git://dnotes.net/bcd_states"
 projects[bcd_facilities][download][type] = "git"
-projects[bcd_facilities][download][url] = "git://dnotes.net/bcd_facilities.git"
+projects[bcd_facilities][download][url] = "git://dnotes.net/bcd_facilities"
 projects[bcd_seasonal][download][type] = "git"
-projects[bcd_seasonal][download][url] = "git://dnotes.net/bcd_seasonal.git"
+projects[bcd_seasonal][download][url] = "git://dnotes.net/bcd_seasonal"
 projects[bcd_temple][download][type] = "git"
-projects[bcd_temple][download][url] = "git://dnotes.net/bcd_temple.git"
+projects[bcd_temple][download][url] = "git://dnotes.net/bcd_temple"
 
 ; Libraries
 libraries[Clusterer2.js][download][type] = "raw"
