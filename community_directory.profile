@@ -24,7 +24,11 @@ function community_directory_profile_modules() {
     'link',
     'number',
     'optionwidgets',
+    'nodereference',
     'text',
+
+    'link_options',
+    'google_calendar',
 
     'ctools',
     'token',
@@ -46,6 +50,7 @@ function community_directory_profile_modules() {
     'gmap_location',
     'gmap_taxonomy',
     'geoip',
+    'gmap_legend',
 
     'advanced_help',
 
@@ -66,8 +71,6 @@ function community_directory_profile_modules() {
     'bcd_facilities',
     'bcd_seasonal',
     'bcd_temple',
-    #'link_display_options',
-    #'google_calendar',
 
   );
 }
@@ -182,6 +185,16 @@ function community_directory_profile_tasks(&$task, $url) {
   $theme_settings = variable_get('theme_settings', array());
   $theme_settings['toggle_node_info_page'] = FALSE;
   variable_set('theme_settings', $theme_settings);
+
+  variable_set('site_frontpage', 'bahai-communities/nearby');
+  variable_set('location_usegmap', 1);
+  variable_set('gmap_mm_type', 'clusterer');
+  variable_set('gmap_markermanager_clusterer_marker', 'zoom');
+  variable_set('gmap_markermanager_clusterer_max_nocluster', '100');
+  variable_set('gmap_markermanager_clusterer_cluster_min', '10');
+  variable_set('gmap_markermanager_clusterer_cluster_mode', 'zoom');
+  variable_set('geoip_data_file', 'profiles/community_directory/libraries/geoip/GeoLiteCity.dat');
+  
 
   // Update the menu router information.
   menu_rebuild();

@@ -13,6 +13,8 @@ projects[] = date
 projects[] = node_import
 
 projects[] = features
+projects[] = context
+projects[] = job_scheduler
 projects[] = feeds
 projects[] = diff
 
@@ -59,10 +61,21 @@ projects[bcd_temple][type] = "module"
 projects[bcd_temple][download][type] = "git"
 projects[bcd_temple][download][url] = "http://github.com/dnotes/bcd_temple"
 
+projects[link_options][type] = "module"
+projects[link_options][download][type] = "git"
+projects[link_options][download][url] = "http://git.drupal.org/sandbox/dnotes/1106642.git"
+projects[link_options][directory_name] = "link_options"
+projects[google_calendar_basic][type] = "module"
+projects[google_calendar_basic][download][type] = "git"
+projects[google_calendar_basic][download][url] = "http://git.drupal.org/sandbox/dnotes/1107592.git"
+projects[google_calendar_basic][directory_name] = "google_calendar_basic"
+
+
 ; Libraries
-libraries[Clusterer2.js][download][type] = "raw"
+libraries[Clusterer2.js][download][type] = "file"
 libraries[Clusterer2.js][download][url] = "http://acme.com/javascript/Clusterer2.js"
 libraries[Clusterer2.js][destination] = "modules/gmap/thirdparty"
+libraries[Clusterer2.js][filename] = "Clusterer2.js"
 
 libraries[GeoLiteCity.dat][download][type] = "get"
 libraries[GeoLiteCity.dat][download][url] = "http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz"
