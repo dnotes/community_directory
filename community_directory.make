@@ -69,6 +69,10 @@ projects[google_calendar_basic][type] = "module"
 projects[google_calendar_basic][download][type] = "git"
 projects[google_calendar_basic][download][url] = "http://git.drupal.org/sandbox/dnotes/1107592.git"
 projects[google_calendar_basic][directory_name] = "google_calendar_basic"
+projects[gmap_legend][type] = "module"
+projects[gmap_legend][download][type] = "git"
+projects[gmap_legend][download][url] = "http://git.drupal.org/sandbox/dnotes/1116188.git"
+projects[gmap_legend][directory_name] = "gmap_legend"
 
 
 ; Libraries

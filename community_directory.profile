@@ -28,7 +28,7 @@ function community_directory_profile_modules() {
     'text',
 
     'link_options',
-    'google_calendar',
+    'google_calendar_basic',
 
     'ctools',
     'token',
