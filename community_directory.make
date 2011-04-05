@@ -85,8 +85,8 @@ libraries[Clusterer2.js][filename] = "Clusterer2.js"
 libraries[Clusterer2.js][directory_name] = FALSE
 
 libraries[GeoLiteCity.dat][download][type] = "get"
-libraries[GeoLiteCity.dat][download][url] = "http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.tar.gz"
-libraries[GeoLiteCity.dat][directory_name] = 'geoip';
+libraries[GeoLiteCity.dat][download][url] = "http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz"
+libraries[GeoLiteCity.dat][directory_name] = "geoip"
 
 libraries[zoom][download][type] = "git"
 libraries[zoom][download][url] = "http://github.com/dnotes/gmap_zoom"
