@@ -17,6 +17,9 @@ function community_directory_profile_modules() {
     'taxonomy',
     'update',
 
+    'adminrole',
+    'admin_menu',
+
     'content',
     'fieldgroup',
     'filefield',
@@ -41,7 +44,9 @@ function community_directory_profile_modules() {
     'diff',
 
     'imageapi',
+    'imageapi_gd',
     'imagecache',
+    'imagecache_ui',
 
     'location',
     'location_node',
@@ -63,6 +68,7 @@ function community_directory_profile_modules() {
     'vertical_tabs',
 
     'views',
+    'views_ui',
 
     'random_splash',
     'bcd_localities',

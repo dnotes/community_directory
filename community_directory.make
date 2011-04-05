@@ -28,6 +28,8 @@ projects[location][patch][] = "http://drupal.org/files/issues/820116-location-3.
 projects[] = advanced_help
 projects[] = boost
 projects[] = cacheexclude
+projects[] = adminrole
+projects[] = admin_menu
 
 projects[geoip] = 1.3
 
@@ -80,10 +82,11 @@ libraries[Clusterer2.js][download][type] = "file"
 libraries[Clusterer2.js][download][url] = "http://acme.com/javascript/Clusterer2.js"
 libraries[Clusterer2.js][destination] = "modules/gmap/thirdparty"
 libraries[Clusterer2.js][filename] = "Clusterer2.js"
+libraries[Clusterer2.js][directory_name] = FALSE
 
 libraries[GeoLiteCity.dat][download][type] = "get"
-libraries[GeoLiteCity.dat][download][url] = "http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz"
-libraries[GeoLiteCity.dat][destination] = "libraries/geoip"
+libraries[GeoLiteCity.dat][download][url] = "http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.tar.gz"
+libraries[GeoLiteCity.dat][directory_name] = 'geoip';
 
 libraries[zoom][download][type] = "git"
 libraries[zoom][download][url] = "http://github.com/dnotes/gmap_zoom"
