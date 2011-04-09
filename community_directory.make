@@ -27,7 +27,6 @@ projects[location][patch][] = "http://drupal.org/files/issues/820116-location-3.
 
 projects[] = advanced_help
 projects[] = boost
-projects[] = cacheexclude
 projects[] = adminrole
 projects[] = admin_menu
 

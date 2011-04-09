@@ -31,7 +31,7 @@ function community_directory_profile_modules() {
     'text',
 
     'link_options',
-    'google_calendar_basic',
+    #'google_calendar_basic',
 
     'ctools',
     'token',
@@ -55,7 +55,7 @@ function community_directory_profile_modules() {
     'gmap_location',
     'gmap_taxonomy',
     'geoip',
-    'gmap_legend',
+    #'gmap_legend',
 
     'advanced_help',
 
@@ -64,19 +64,19 @@ function community_directory_profile_modules() {
     'pathauto',
     'strongarm',
 
-    'googleanalytics',
+    #'googleanalytics',
     'vertical_tabs',
 
     'views',
     'views_ui',
 
-    'random_splash',
+    #'random_splash',
     'bcd_localities',
     'bcd_centers',
     'bcd_states',
-    'bcd_facilities',
-    'bcd_seasonal',
-    'bcd_temple',
+    #'bcd_facilities',
+    #'bcd_seasonal',
+    #'bcd_temple',
 
   );
 }
@@ -195,6 +195,15 @@ function community_directory_profile_tasks(&$task, $url) {
   variable_set('site_frontpage', 'bahai-communities/nearby');
   variable_set('location_usegmap', 1);
   variable_set('gmap_mm_type', 'clusterer');
+  $gmap_path = drupal_get_path('module', 'gmap') . '/thirdparty/';
+  $gmap_file = $gmap_path . variable_get('gmap_markermanager_clusterer_filename', 'Clusterer2.js');
+  if (is_dir($gmap_file)) {
+    $gmap_file .= '/Clusterer2.js';
+    variable_set('gmap_markermanager_clusterer_filename', 'Clusterer2.js/Clusterer2.js');
+  }
+  if (!file_exists($gmap_file)) {
+    drupal_set_message(t('Clusterer2.js could not be found - Google Maps will not work correctly until you adjust the settings at <a href="/admin/settings/gmap">/admin/settings/gmap</a>.', 'error'));
+  }
   variable_set('gmap_markermanager_clusterer_marker', 'zoom');
   variable_set('gmap_markermanager_clusterer_max_nocluster', '100');
   variable_set('gmap_markermanager_clusterer_cluster_min', '10');
