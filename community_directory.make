@@ -1,6 +1,8 @@
 api = 2
 core = 6.x
 
+projects[] = drupal
+
 projects[] = cck
 projects[] = link
 projects[] = filefield
@@ -81,7 +83,6 @@ libraries[Clusterer2.js][download][type] = "file"
 libraries[Clusterer2.js][download][url] = "http://acme.com/javascript/Clusterer2.js"
 libraries[Clusterer2.js][destination] = "modules/gmap/thirdparty"
 libraries[Clusterer2.js][filename] = "Clusterer2.js"
-libraries[Clusterer2.js][directory_name] = FALSE
 
 libraries[GeoLiteCity.dat][download][type] = "get"
 libraries[GeoLiteCity.dat][download][url] = "http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz"
